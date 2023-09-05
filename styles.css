@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#canvas {
+    background-color: forestgreen;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
+
+.statParamStyle {
+    color: white;
+    padding: 5px;
+    margin: 25px;
+    float: left;
+}
+
+.gameStatistics {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100px;
+}
+
+.scoreParameter {
+    width: 100px;
+}
+
+#gameField {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
